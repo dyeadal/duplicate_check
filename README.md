@@ -1,2 +1,5 @@
-# duplicate_check
-Checks Linux directory if duplicate files exist
+# Duplicate Check
+
+BASH script that checks directory if duplicate files exist
+
+
