@@ -23,10 +23,15 @@ else
         echo "$DIR is a valid directory."
 fi
 
-# Create array to store hashes, file paths, and file name
+# Declare an array to hold hashes and file paths
+declare -A hash_path
 
-# Function to generate hashes
+# Function to generate a hash for each file
+generate_hash() {
+    
+}
 
-# Run function
+# Run function, generating hashes for all files in the directory
+generate_hash
 
 # Check array for duplicate hashes
