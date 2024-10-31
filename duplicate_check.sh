@@ -35,3 +35,9 @@ generate_hash() {
 generate_hash
 
 # Check array for duplicate hashes
+
+if $duplicates; then
+	exit 1
+else
+    echo "No duplicate files found."
+fi
